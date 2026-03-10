@@ -11,6 +11,14 @@ const CSV_FILE = path.join(__dirname, 'leads.csv');
 app.use(cors());
 app.use(express.json());
 
+// Serve static files from the root directory
+app.use(express.static(__dirname));
+
+// Root route redirect to page1
+app.get('/', (req, res) => {
+  res.redirect('/page1/index.html');
+});
+
 // CSV headers
 const CSV_HEADERS = [
   'Timestamp',

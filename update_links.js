@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const baseDir = "c:/Users/user/Downloads/Ryvon-Form-Lead-main/Ryvon-Form-Lead-main";
-const pages = ["Page2", "Page 3", "Page 4", "Page 5", "Page 6", "Page 7"];
+const pages = ["page1", "page2", "page3", "page4", "page5", "page6", "page7"];
 
 for (const page of pages) {
     const filePath = path.join(baseDir, page, 'index.html');

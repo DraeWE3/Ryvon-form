@@ -1,7 +1,7 @@
 import os
 
 base_dir = r"C:\Users\user\Downloads\Ryvon-Form-Lead-main\Ryvon-Form-Lead-main"
-pages = ["Page 1", "Page2", "Page 3", "Page 4", "Page 5", "Page 6", "Page 7"]
+const pages = ["page1", "page2", "page3", "page4", "page5", "page6", "page7"];
 
 responsive_css = """
 

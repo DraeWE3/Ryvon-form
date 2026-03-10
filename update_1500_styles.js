@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const baseDir = 'c:/Users/user/Downloads/Ryvon-Form-Lead-main/Ryvon-Form-Lead-main';
-const pages = ["Page 1", "Page2", "Page 3", "Page 4", "Page 5", "Page 6", "Page 7"];
+const pages = ["page1", "page2", "page3", "page4", "page5", "page6", "page7"];
 
 const stylesBelow1500 = `
 /* ===== Desktop PC Enhancements (<= 1500px) ===== */

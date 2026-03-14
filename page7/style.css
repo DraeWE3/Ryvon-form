@@ -246,18 +246,13 @@ nav {
 
 /* ===== Main Content ===== */
 .main-content {
-  position: absolute;
-  z-index: 10;
-  top: 47%;
-  left: 16.5%;
-  transform: translateY(calc(-50% - 8px));
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
-  width: 1289px;
-  max-width: calc(100% - 152px);
+  width: 100%;
   text-align: center;
+  margin-top: 5%;
+  height: fit-content !important;
 }
 
 /* ===== Headings Group ===== */
@@ -324,26 +319,20 @@ nav {
   font-size: 28px;
   text-align: center;
   color: #fff;
-  line-height: 109.1%;
-  height: 86px;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
+  margin-top: 4%;
+  margin-bottom: 6%;
 }
 
 /* ===== Explore Section ===== */
 .explore-section {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 170px;
-  z-index: 10;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 543px;
-  max-width: calc(100% - 40px);
+  width: 100%;
   margin-bottom: 30px;
 }
 
@@ -359,6 +348,7 @@ nav {
   align-items: center;
   justify-content: center;
   width: 100%;
+  margin-bottom: 1rem;
 }
 
 /* Demo Button */
@@ -523,12 +513,6 @@ footer {
     letter-spacing: 5px;
   }
 
-  .main-content {
-    width: 100%;
-    max-width: calc(100% - 100px);
-    left: 50%;
-    transform: translateX(-50%) translateY(calc(-50% - 8px));
-  }
 
   .heading-thankyou {
     font-size: 62px;
